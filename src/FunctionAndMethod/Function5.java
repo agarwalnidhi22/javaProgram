@@ -1,0 +1,19 @@
+package FunctionAndMethod;
+import java.util.*;
+public class Function5 {
+    public static void main(String[] args){
+        Scanner sc= new Scanner (System.in);
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int c= sc.nextInt();
+
+        CalculateAverage(a,b,c);
+
+
+    }
+    public static int CalculateAverage(int a, int b, int c){
+        int average=(a+b+c)/3;
+        System.out.println(average);
+return average;
+    }
+}
